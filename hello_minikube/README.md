@@ -1,0 +1,29 @@
+## Hello Minikube
+- Instalações:
+  - kubectl
+  - minikube
+  - hyperkit VM
+  - Docker
+
+- Dentro da pasta hello_minikube, rode:
+```
+docker build -t {dockerhub_id}/hello-minikube .
+```
+
+- Suba sua imagem docker para seu Docker Hub:
+```
+docker login
+```
+```
+docker push {dockerhub_id}/hello-minikube:latest
+```
+
+- Inicie o minikube:
+```
+minikube start
+```
+```
+minikube dashboard
+```
+
+- Siga a documentação oficial: https://kubernetes.io/docs/tutorials/hello-minikube/
