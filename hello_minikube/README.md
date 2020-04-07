@@ -26,4 +26,4 @@ minikube start
 minikube dashboard
 ```
 
-- Siga a documentação oficial: https://kubernetes.io/docs/tutorials/hello-minikube/
+- Continue na documentação oficial: https://kubernetes.io/docs/tutorials/hello-minikube/
