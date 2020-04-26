@@ -1,4 +1,4 @@
-## Hello Minikube
+## Hello Minikube - Running on MacOs
 - Instalações:
   - kubectl
   - minikube
